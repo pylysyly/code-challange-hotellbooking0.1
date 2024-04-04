@@ -1,7 +1,7 @@
 from flask import Flask
 from flask_cors import CORS 
 
-PORT=5000
+PORT=8040
 
 app = Flask(__name__)
 CORS(app) # Tillåt cross-origin requests
